@@ -1,5 +1,5 @@
 """
-ASGI config for PRJ2 project.
+ASGI config for PRJ project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'PRJ2.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'PRJ.settings')
 
 application = get_asgi_application()
